@@ -1,0 +1,244 @@
+html{
+  scroll-behavior: smooth;
+}
+/*==============================================================
+ home style
+ ==============================================================*/
+.home_section{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../images/img1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home_section nav{
+  background: #fff;
+}
+.home_section nav ul li a{
+  color: #000;
+  font-size: 14px;
+  font-family: comic;
+  letter-spacing: 2px;
+}
+.home_section .text{
+  padding: 270px 0px;
+  color: #000;
+  text-align:center;
+}
+.home_section .text .contact_us_btn{
+  text-decoration: none;
+  background: none;
+  border: 1px solid #3399ff;
+  color: #fff;
+  margin: 10px;
+}
+.home_section .text .who_we_are_btn{
+  text-decoration: none;
+  background: none;
+  border: 1px solid #3399ff;
+  color: #fff;
+  margin: 10px;
+}
+.home_section .text h1{
+  text-align: center;
+  text-transform: capitalize;
+  font-family: comic;
+  font-size: 70px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+/*==============================================================
+ user_list
+ ==============================================================*/
+.user_list{
+  background: #3399ff;
+  color: #fff;
+  padding: 70px;
+  text-align: center;
+}
+.user_list i{
+  font-size: 50px;
+}
+.user_list p{
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: monospace;
+}
+.user_list h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: comic;
+}
+/*==============================================================
+ about
+ ==============================================================*/
+.about{
+  padding: 100px 0px;
+}
+.about .about_header h1{
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize
+}
+.about p{
+  text-align: center;
+}
+.row_mission_vision{
+  margin: 20px 0px;
+}
+.about .vision{
+  padding: 20px 10px;
+  text-align: justify;
+  background: #3399ff;
+}
+.about .vision h1{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.about .vision p{
+  text-align: justify;
+  color: #fff;
+}
+
+.about .mission{
+  padding: 20px 10px;
+  text-align: justify;
+  background: #3399ff;
+}
+.about .mission h1{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.about .mission p{
+  text-align: justify;
+  color: #fff;
+}
+
+
+
+
+/*==============================================================
+ quotation_container
+ ==============================================================*/
+.quotation_container{
+  background: #3399ff;
+  color: #fff;
+  text-align: center;
+  padding: 200px 0px;
+}
+.quotation_container h1{
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-family: comic;
+}
+.quotation_container h2{
+  font-size: 30px;
+}
+.quotation_container h2 span{
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-family: comic;
+}
+
+/*==============================================================
+ message_from_director
+ ==============================================================*/
+.message_from_director{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../images/img2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0px;
+}
+.message_container{
+  background: #3399ff;
+  padding: 20px 10px;
+  text-align: center;
+}
+.message_container h1{
+  font-size: 20px;
+  color: #fff;
+  font-family: comic;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.message_container p{
+  text-transform: initial;
+  color: #fff;
+}
+
+
+
+
+/*==============================================================
+ services_container
+ ==============================================================*/
+.services_container{
+  padding: 100px 0px;
+}
+.services_container h1{
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.services_container .services_row .property_container{
+  border: 1px solid #333;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+.services_container .services_row{
+  margin: 10px;
+}
+.services_container .services_row h1{
+  font-size: 20px;
+  font-family: comic;
+  text-align: center;
+}
+
+/*============================================================
+ contact_section
+ ============================================================*/
+ .contact_section{
+   background: #3399ff;
+   text-align: center;
+   padding: 100px 0px;
+ }
+ .contact_section h1{
+   font-family: monospace;
+   font-size: 30px;
+   font-weight: bold;
+   color: #fff;
+   margin-bottom: 30px;
+ }
+ .contact_section i{
+   font-size: 60px;
+   color: #fff;
+ }
+ .contact_section p{
+   color: #fff;
+   margin-top: 20px;
+ }
+
+/*=============================================================
+footer_section
+=============================================================*/
+.footer_section{
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 50px 0px;
+}
